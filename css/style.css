@@ -1,0 +1,127 @@
+
+header img{
+    width: 150px ;
+    margin-left: 45%;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+header ul li{
+    margin: 0 10px;
+    color: #696969;
+    
+}
+ header a{
+    text-decoration: none;
+    
+}
+ header ul li:hover { /*cambio de color cuando me posiciono*/
+    color: black; 
+}
+
+.contenedor1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* espacio entre las imágenes */
+    margin: 20px;
+    margin-top: 5%;
+    
+}
+
+.img{
+text-align: center;
+}
+
+.caption{
+    margin-top: 3%;
+}
+
+.contenedor1 img{
+    width: 275px;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* espacio entre las imágenes */
+    margin: 20px;
+    margin-top: 5%;
+    
+}
+
+.contenedor2 img{
+    width: 275px;
+}
+
+.contenedor3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* espacio entre las imágenes */
+    margin: 20px;
+    margin-top: 5%;
+    
+}
+
+.contenedor3 img{
+    width: 275px;
+}
+
+
+.datos{
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    text-align: left;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.datos h6{
+    font-size: small;
+}
+.mimo{
+    color: #696969;
+    margin-top: 8%;
+    text-align: center;
+
+}
+
+footer{
+   background-color: #EEEEEE;
+   margin-top: 5%;
+}
+
+footer img{
+    width: 30px;
+    margin-bottom: 10%;
+}
+
+.redes{
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+    gap: 720px;
+}
+
+footer h6{
+    margin-top: 10%;
+}
+
+.masproductos a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.masproductos{
+    background-color:#00B6CE;
+    margin-left: 41%;
+    margin-right: 41%;
+}
